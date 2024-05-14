@@ -87,7 +87,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>libmex.lib;libmat.lib;libmx.lib;libeng.lib;mclmcr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>F:\MOSSDET_Development\MOSSDET_c\src\Matlab\libeng.lib;F:\MOSSDET_Development\MOSSDET_c\src\Matlab\libmat.lib;F:\MOSSDET_Development\MOSSDET_c\src\Matlab\libmex.lib;F:\MOSSDET_Development\MOSSDET_c\src\Matlab\libmx.lib;F:\MOSSDET_Development\MOSSDET_c\src\Matlab\mclmcr.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
