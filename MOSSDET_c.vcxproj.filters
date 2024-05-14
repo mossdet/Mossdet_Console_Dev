@@ -108,7 +108,7 @@
     <ClCompile Include="..\dlib-19.16\dlib\all\source.cpp">
       <Filter>src\dlib</Filter>
     </ClCompile>
-    <ClCompile Include="SleepSpindleDetector.cpp">
+    <ClCompile Include="src\SleepSpindleDetector.cpp">
       <Filter>src\SleepSpindles</Filter>
     </ClCompile>
   </ItemGroup>
@@ -162,7 +162,7 @@
       <Filter>include\MatlabIO</Filter>
     </ClInclude>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="SleepSpindleDetector.h">
+    <ClInclude Include="include\SleepSpindleDetector.h">
       <Filter>include\SleepSpindles</Filter>
     </ClInclude>
   </ItemGroup>

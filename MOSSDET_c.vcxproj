@@ -163,7 +163,6 @@
   <ItemGroup>
     <ClCompile Include="..\dlib-19.16\dlib\all\source.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SleepSpindleDetector.cpp" />
     <ClCompile Include="src\ancorrelation.cpp" />
     <ClCompile Include="src\CorrelationFeatureSelection.cpp" />
     <ClCompile Include="src\edflib.c" />
@@ -174,6 +173,7 @@
     <ClCompile Include="src\MatlabFilesRW.cpp" />
     <ClCompile Include="src\Plotter.cpp" />
     <ClCompile Include="src\SignalProcessing.cpp" />
+    <ClCompile Include="src\SleepSpindleDetector.cpp" />
     <ClCompile Include="src\SVM_Detector.cpp" />
     <ClCompile Include="src\WaveletTransform.cpp" />
   </ItemGroup>
@@ -191,11 +191,11 @@
     <ClInclude Include="include\MatlabFilesRW.h" />
     <ClInclude Include="include\Plotter.h" />
     <ClInclude Include="include\SignalProcessing.h" />
+    <ClInclude Include="include\SleepSpindleDetector.h" />
     <ClInclude Include="include\SS_EventsHandler.h" />
     <ClInclude Include="include\SVM_Detector.h" />
     <ClInclude Include="include\WaveletTransform.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="SleepSpindleDetector.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MOSSDET_c.rc" />
