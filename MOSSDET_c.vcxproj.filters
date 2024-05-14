@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{79991711-c1b9-4fba-b960-196cce429134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{6bc01825-005a-480a-8e20-49945d779484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EEG_Characterization">
+      <UniqueIdentifier>{2879aa0b-4322-4ebb-9d77-629d9b576b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HFO">
+      <UniqueIdentifier>{b350cd26-4c80-4dbd-8ff5-4f708f0d0ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Plot">
+      <UniqueIdentifier>{bfcf8808-6a47-4cae-9692-b6df55e3dfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Reader">
+      <UniqueIdentifier>{63cbecdd-4437-46f2-8dea-7cb8f626f88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SignalProcessing">
+      <UniqueIdentifier>{908db9d1-a29d-4cf4-8aae-bd81abc6bc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SleepSpindles">
+      <UniqueIdentifier>{a2960896-9d24-49ff-a892-aa23ec445c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Spike">
+      <UniqueIdentifier>{f967c4b6-c91e-4f7d-9155-af6c3d5ae6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SVM_Detection">
+      <UniqueIdentifier>{d381c627-626f-424a-8bb3-d30bcb9e37c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EEG_Characterization">
+      <UniqueIdentifier>{292ea49d-0c1f-476a-bc21-f906cf99fbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HFO">
+      <UniqueIdentifier>{0bb6422d-bde9-45ac-8829-327c82c3704a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SVM_Detection">
+      <UniqueIdentifier>{dc4aed8c-e4ef-44a0-9ae8-638ea2896930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Spike">
+      <UniqueIdentifier>{73b4cc7d-96af-4aae-8332-f09e64280b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SleepSpindles">
+      <UniqueIdentifier>{fe775841-7f72-4964-9b3a-8d13ab10efd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SignalProcessing">
+      <UniqueIdentifier>{80f71f04-a514-4e9b-bd83-8c21a5f3df86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Reader">
+      <UniqueIdentifier>{17730756-8c4b-43e8-9034-eb77402002d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Plot">
+      <UniqueIdentifier>{4885413e-fcea-4cb9-b56c-1e2336ad7a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\MatlabIO">
+      <UniqueIdentifier>{3f9ce4b5-4597-49d1-8e54-74e4d2794f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MatlabIO">
+      <UniqueIdentifier>{4a13788a-b840-4873-b938-82d01decc662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dlib">
+      <UniqueIdentifier>{808523f3-a0fd-4f64-922e-405c8fbd4597}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CorrelationFeatureSelection.cpp">
+      <Filter>src\EEG_Characterization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HFO_Detector.cpp">
+      <Filter>src\HFO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plotter.cpp">
+      <Filter>src\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="src\edflib.c">
+      <Filter>src\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IO_EDFPlus_SignalImporter_c.cpp">
+      <Filter>src\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ancorrelation.cpp">
+      <Filter>src\SignalProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FIR_Filtering.cpp">
+      <Filter>src\SignalProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HeapSorter.cpp">
+      <Filter>src\SignalProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SignalProcessing.cpp">
+      <Filter>src\SignalProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaveletTransform.cpp">
+      <Filter>src\SignalProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SVM_Detector.cpp">
+      <Filter>src\SVM_Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MatlabFilesRW.cpp">
+      <Filter>src\MatlabIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dlib-19.16\dlib\all\source.cpp">
+      <Filter>src\dlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepSpindleDetector.cpp">
+      <Filter>src\SleepSpindles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CorrelationFeatureSelection.h">
+      <Filter>include\EEG_Characterization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HFO_Detector.h">
+      <Filter>include\HFO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HFO_EventsHandler.h">
+      <Filter>include\HFO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Plotter.h">
+      <Filter>include\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="gnuplot-iostream-master\gnuplot-iostream.h">
+      <Filter>include\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="include\edflib.h">
+      <Filter>include\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IO_EDFPlus_signalImporter_c.h">
+      <Filter>include\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SVM_Detector.h">
+      <Filter>include\SVM_Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SS_EventsHandler.h">
+      <Filter>include\SleepSpindles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ancorrelation.h">
+      <Filter>include\SignalProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataTypes.h">
+      <Filter>include\SignalProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FIR_Filtering.h">
+      <Filter>include\SignalProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HeapSorter.h">
+      <Filter>include\SignalProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SignalProcessing.h">
+      <Filter>include\SignalProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WaveletTransform.h">
+      <Filter>include\SignalProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MatlabFilesRW.h">
+      <Filter>include\MatlabIO</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SleepSpindleDetector.h">
+      <Filter>include\SleepSpindles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MOSSDET_c.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="eeg_oscillation_6xx_icon.ico" />
+  </ItemGroup>
+</Project>
