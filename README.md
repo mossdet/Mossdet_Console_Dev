@@ -1,4 +1,4 @@
-Console executable of the MOSSDET detectors:
+/*Console executable of the MOSSDET detectors:*/
 - Ripple
 - Fast Ripple
 - Spikes
